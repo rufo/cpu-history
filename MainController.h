@@ -48,5 +48,7 @@
 
 - (void)showPreferences:(id)sender;
 - (void)showAboutBox:(id)sender;
+- (void)launchActivityMonitor:(id)sender;
+
 
 @end

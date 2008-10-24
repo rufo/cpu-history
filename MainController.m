@@ -318,6 +318,10 @@
 	[NSApp orderFrontStandardAboutPanel:sender];
 }
 
+- (void)launchActivityMonitor:(id)sender
+{
+	[[NSWorkspace sharedWorkspace] launchApplication:@"Activity Monitor"];
+}
 
 - (BOOL)isLoginItem
 {
